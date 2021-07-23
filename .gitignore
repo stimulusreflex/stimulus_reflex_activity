@@ -5,4 +5,5 @@ yarn-error.log
 *.swo
 *~
 
-dist
+/dist
+/.log/**
