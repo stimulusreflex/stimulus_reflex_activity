@@ -10,12 +10,16 @@
   "unpkg": "./dist/activity.umd.js",
   "scripts": {
     "build": "microbundle",
-    "dev": "microbundle watch"
+    "dev": "microbundle watch",
+    "prerelease": "yarn build"
   },
   "repository": "https://github.com/stimulusreflex/stimulus_reflex_activity",
   "author": "StimulusReflex",
   "license": "MIT",
   "devDependencies": {
     "microbundle": "^0.13.3"
+  },
+  "peerDependencies": {
+    "@hotwired/turbo": "^7.0.0-rc.1"
   }
 }
