@@ -17,7 +17,8 @@
   "author": "StimulusReflex",
   "license": "MIT",
   "devDependencies": {
-    "microbundle": "^0.13.3"
+    "microbundle": "^0.13.3",
+    "prettier-standard": "^16.4.1"
   },
   "peerDependencies": {
     "@hotwired/turbo": "^7.0.0-rc.1"
