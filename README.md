@@ -11,12 +11,12 @@ Uses the Turbo(links) progress bar to display activity while morphing.
 Install my-project with npm
 
 ```bash
-$ yarn add @stimulusreflex/activity  
+$ yarn add @stimulus_reflex/activity  
 ```
 
 In your `app/javascripts/packs/application.js` do:
 ```javascript
-import "@stimulusreflex/activity"
+import "@stimulus_reflex/activity"
 ```    
 
 ## Usage/Examples

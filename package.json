@@ -1,5 +1,5 @@
 {
-  "name": "@stimulusreflex/activity",
+  "name": "@stimulus_reflex/activity",
   "type": "module",
   "version": "1.0.0",
   "description": "Simple activity indicator for StimulusReflex (for Turbo/Turbolinks-enabled applications)",
@@ -11,7 +11,8 @@
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch",
-    "prerelease": "yarn build"
+    "prerelease": "yarn build",
+    "release": "npm publish && git commit -am \"$npm_package_name v$npm_package_version\" && git push"
   },
   "repository": "https://github.com/stimulusreflex/stimulus_reflex_activity",
   "author": "StimulusReflex",
