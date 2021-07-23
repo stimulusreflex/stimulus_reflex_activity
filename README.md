@@ -18,8 +18,14 @@ In your `app/javascripts/packs/application.js` do:
 ```javascript
 import "@stimulusreflex/activity"
 ```    
+
 ## Usage/Examples
 
+The progress indicator is opt-in on a per-element basis. To activate it, add `data-reflex-display-progress` to your reflex element's dataset:
+
+```html
+<button data-reflex="click->Filter#filter" data-reflex-display-progress />
+```
   
 ## Authors
 
