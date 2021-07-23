@@ -14,7 +14,7 @@ Install my-project with npm
 $ yarn add @stimulusreflex/activity  
 ```
 
-In your `app/javascripts/packs/application.js` do:
+In your (for example) `app/javascripts/packs/application.js` do:
 ```javascript
 import "@stimulusreflex/activity"
 ```    
