@@ -1,0 +1,21 @@
+{
+  "name": "@stimulusreflex/activity",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Simple activity indicator for StimulusReflex (for Turbo/Turbolinks-enabled applications)",
+  "source": "src/index.js",
+  "exports": "./dist/activity.modern.js",
+  "main": "./dist/activity.cjs",
+  "module": "./dist/activity.module.js",
+  "unpkg": "./dist/activity.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "repository": "https://github.com/stimulusreflex/stimulus_reflex_activity",
+  "author": "StimulusReflex",
+  "license": "MIT",
+  "devDependencies": {
+    "microbundle": "^0.13.3"
+  }
+}
